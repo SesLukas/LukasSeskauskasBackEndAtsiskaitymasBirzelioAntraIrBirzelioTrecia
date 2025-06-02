@@ -1,18 +1,18 @@
 .footer {
   background-color: #f2f2f2;
-  padding: 1.5rem 2rem;
-  font-size: 0.95rem;
+  padding: 0.75rem 1rem; /* buvo 1.5rem 2rem */
+  font-size: 1rem; /* buvo 0.95rem */
   color: #333;
   border-top: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.75rem; /* buvo 1rem */
 }
 
 .footer-info {
   display: flex;
-  gap: 4rem;
+  gap: 2rem; /* buvo 4rem */
   text-align: left;
 }
 
@@ -24,3 +24,4 @@
 .footer-info a:hover {
   text-decoration: underline;
 }
+

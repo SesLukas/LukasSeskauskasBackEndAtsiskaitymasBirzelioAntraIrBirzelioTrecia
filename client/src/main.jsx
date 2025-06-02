@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx';
 import AllBooks from './pages/AllBooks.jsx';
 import BookDetails from './pages/BookDetails.jsx';
 
+
 const router = createBrowserRouter([
   {
     path: '/',

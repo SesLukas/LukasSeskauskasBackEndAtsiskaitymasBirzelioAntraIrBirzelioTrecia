@@ -1,26 +1,34 @@
 .header {
-  padding: 1rem 2rem;
-  background: #f8f8f8;
-  border-bottom: 1px solid #ccc;
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 0.5rem 1rem; /* ⬅️ buvo 1rem 2rem */
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;           /* Didesnis šriftas */
   font-weight: bold;
+  text-align: center;
+  line-height: 1;              /* Nuleidžia viršutinę erdvę */
+  transform: translateY(2px);  /* Pažemina tekstą */
+  padding: 0;                  /* Nenaudojam papildomo tarpo */
+  margin: 0;
 }
 
 .nav {
+  position: absolute;
+  right: 2rem; /* prilimpa prie dešinio krašto */
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-link {
   text-decoration: none;
   color: #333;
-  font-weight: normal;
+  font-size: 1rem;
   transition: color 0.2s ease;
 }
 
