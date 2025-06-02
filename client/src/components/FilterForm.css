@@ -1,0 +1,32 @@
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+  align-items: flex-end;
+}
+
+.filter-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.filter-form input[type="number"],
+.filter-form select {
+  padding: 0.3rem;
+  width: 8rem;
+}
+
+.filter-form button {
+  padding: 0.5rem 1rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-form button:hover {
+  background: #005fa3;
+}
