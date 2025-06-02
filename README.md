@@ -8,6 +8,8 @@
 - dotenv
 
 ## Backendo susikūrimas ir paleidimas
+Atsidarome terminalą
+Nusinaviguojame į tuščią server failą, kur bus laikomas backendas
 
 ```bash
 npm init
@@ -19,6 +21,8 @@ Susikuriame index.js ir nusistatome parametrus.
  npm run dev
 ```
 ## Frontendo susikūrimas ir paleidimas
+Atsidarome terminalą
+Nusinaviguojame į tuščią client failą, kur bus laikomas frontendas
 ```bash
 npm create vite@latest
 ```
@@ -39,6 +43,7 @@ Laukelyje **Collection Name** įrašome pirmos kolekcijos pavadinimą
 Spaudžiame **`Create Database`**
 Susikuriame failą pavadinimu `.env`
 Įsitikiname, kad projekte yra įdiegta `dotenv`:
+Atsidarome terminalą
 
 ```bash
 npm install dotenv
