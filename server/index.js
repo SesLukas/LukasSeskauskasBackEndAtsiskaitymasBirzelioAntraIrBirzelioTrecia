@@ -10,13 +10,13 @@ const app = express();
 app.use(cors({ origin: process.env.FRONTEND_ORIGIN }));
 app.use(express.json());
 
-// MongoDB ryšys per kiekvieną užklausą
+
 app.use(async (req, res, next) => {
   try {
     req.db = await dbConnect();
     next();
   } catch (err) {
-    console.error('❌ DB connection error:', err);
+    console.error('DB connection error:', err);
     res.status(500).json({ message: 'Database connection failed' });
   }
 });
