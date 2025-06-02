@@ -21,14 +21,27 @@ const FilterForm = ({ setQueryString }) => {
 
   return (
     <form className="filter-form" onSubmit={handleSubmit}>
-      <div>
-        <label>Metai nuo:</label>
-        <input type="number" value={yearGte} onChange={(e) => setYearGte(e.target.value)} />
-      </div>
-      <div>
-        <label>Metai iki:</label>
-        <input type="number" value={yearLte} onChange={(e) => setYearLte(e.target.value)} />
-      </div>
+ <div>
+  <label>Metai nuo:</label>
+  <input
+  type="number"
+  min="1850"
+  max={new Date().getFullYear()}
+  value={yearGte}
+  onChange={(e) => setYearGte(e.target.value)}
+/>
+
+</div>
+<div>
+  <label>Metai iki:</label>
+  <input
+  type="number"
+  min="1950"
+  max={new Date().getFullYear()}
+  value={yearLte}
+  onChange={(e) => setYearLte(e.target.value)}
+/>
+</div>
       <div>
         <label>
           <input type="checkbox" checked={inStock} onChange={(e) => setInStock(e.target.checked)} />

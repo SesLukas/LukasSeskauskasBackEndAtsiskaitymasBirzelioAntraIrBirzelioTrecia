@@ -8,8 +8,8 @@ const Header = () => {
     <header className="header">
       <div className="logo">📚 Biblioteka</div>
       <nav className="nav">
-        <Link className={pathname === '/' ? 'nav-link active' : 'nav-link'} to="/">Home</Link>
-        <Link className={pathname.startsWith('/books') ? 'nav-link active' : 'nav-link'} to="/books">All Books</Link>
+        <Link className={pathname === '/' ? 'nav-link active' : 'nav-link'} to="/">Namų puslapis</Link>
+        <Link className={pathname.startsWith('/books') ? 'nav-link active' : 'nav-link'} to="/books">Mūsų knygos</Link>
       </nav>
     </header>
   );

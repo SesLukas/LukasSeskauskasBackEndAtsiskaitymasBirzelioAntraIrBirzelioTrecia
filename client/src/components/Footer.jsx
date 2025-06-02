@@ -1,4 +1,5 @@
 import './Footer.css';
+import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -15,8 +16,18 @@ const Footer = () => {
           <strong>Adresas:</strong><br />
           Gedimino pr. 1, Vilnius<br />
           <strong>Socialiniai tinklai:</strong><br />
-          <a href="https://facebook.com" target="_blank">Facebook</a> | 
-          <a href="https://instagram.com" target="_blank"> Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <FaFacebook size={20} />
+          </a>{' '}
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={20} />
+          </a>{' '}
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <FaTwitter size={20} />
+          </a>{' '}
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+            <FaTiktok size={20} />
+          </a>
         </div>
       </div>
     </footer>
@@ -24,3 +35,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
