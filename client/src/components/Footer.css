@@ -5,8 +5,8 @@
   color: #333;
   border-top: 1px solid #ccc;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:column-reverse;
+  align-items:center;
   gap: 0.75rem; /* buvo 1rem */
 }
 

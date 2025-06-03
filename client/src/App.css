@@ -47,3 +47,8 @@ body, #root {
   display: flex;
   flex-direction: column;
 }
+body {
+  background-color: #bdf168; /* šviesiai pilkas/alyvinis atspalvis */
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}

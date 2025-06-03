@@ -1,10 +1,11 @@
 .book-details {
   display: flex;
   gap: 2rem;
+  border: 1px solid #c9ece8;
   padding: 2rem;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #f8f0c4;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   align-items: flex-start;
