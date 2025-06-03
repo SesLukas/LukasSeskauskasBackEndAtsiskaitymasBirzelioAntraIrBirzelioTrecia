@@ -43,7 +43,7 @@ Laukelyje **Collection Name** įrašome pirmos kolekcijos pavadinimą
 Spaudžiame **`Create Database`**
 Susikuriame failą pavadinimu `.env`
 Įsitikiname, kad projekte yra įdiegta `dotenv`:
-Atsidarome terminalą
+Jeigu neįdiegta, atsidarome terminalą.
 
 ```bash
 npm install dotenv
