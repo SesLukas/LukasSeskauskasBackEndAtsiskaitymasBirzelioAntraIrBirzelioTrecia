@@ -15,7 +15,8 @@ const AllBooks = () => {
 
   return (
     <section style={{ padding: '2rem' }}>
-      <h2>Visos knygos</h2>
+      <h2>Knygų paieškos katalogas</h2>
+      <h3>Galima ieškoti pagal knygos leidimo metus, reitingą ir pagal tai, ar yra knygos egzempliorių bibliotekoje. </h3>
       <FilterForm setQueryString={setQueryString} />
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
         {books.map(book => (

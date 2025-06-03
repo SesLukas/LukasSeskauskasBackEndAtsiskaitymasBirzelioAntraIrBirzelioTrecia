@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 
   // 2. Filtravimas pagal tikslią datą
   if (publishDate) {
-    query.publishDate = publishDate; // string palyginimas, pvz. "2023-05-09"
+    query.publishDate = publishDate; 
   }
 
   // 3. Ar turi kopijų
@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
   res.json(knygos);
 });
 
-// Gauti vieną knygą pagal ID (UUID string)
+// Gauti vieną knygą pagal ID
 router.get('/:id', async (req, res) => {
   try {
     const knyga = await req.db.collection('knygos').findOne({ _id: req.params.id });

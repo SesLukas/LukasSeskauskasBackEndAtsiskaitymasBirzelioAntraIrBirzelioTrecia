@@ -1,18 +1,18 @@
 .footer {
-  background-color: #f2f2f2;
-  padding: 0.75rem 1rem; /* buvo 1.5rem 2rem */
-  font-size: 1rem; /* buvo 0.95rem */
+  background-color: #dbbf72;
+  padding: 0.75rem 1rem; 
+  font-size: 1rem; 
   color: #333;
   border-top: 1px solid #ccc;
   display: flex;
   flex-direction:column-reverse;
   align-items:center;
-  gap: 0.75rem; /* buvo 1rem */
+  gap: 0.75rem; 
 }
 
 .footer-info {
   display: flex;
-  gap: 2rem; /* buvo 4rem */
+  gap: 2rem; 
   text-align: left;
 }
 

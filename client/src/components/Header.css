@@ -3,24 +3,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 1rem; /* ⬅️ buvo 1rem 2rem */
-  background-color: #f8f8f8;
+  padding: 0.5rem 1rem; 
+  background-color: #dbbf72;
   border-bottom: 1px solid #ccc;
 }
 
 .logo {
-  font-size: 1.6rem;           /* Didesnis šriftas */
+  font-size: 1.6rem;           
   font-weight: bold;
   text-align: center;
-  line-height: 1;              /* Nuleidžia viršutinę erdvę */
-  transform: translateY(2px);  /* Pažemina tekstą */
-  padding: 0;                  /* Nenaudojam papildomo tarpo */
+  line-height: 1;              
+  transform: translateY(2px);  
+  padding: 0;                  
   margin: 0;
 }
 
 .nav {
   position: absolute;
-  right: 2rem; /* prilimpa prie dešinio krašto */
+  right: 2rem; 
   display: flex;
   gap: 1.5rem;
 }

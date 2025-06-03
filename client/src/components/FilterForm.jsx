@@ -22,7 +22,7 @@ const FilterForm = ({ setQueryString }) => {
   return (
     <form className="filter-form" onSubmit={handleSubmit}>
  <div>
-  <label>Metai nuo:</label>
+  <label>Leidimo metai (nuo):</label>
   <input
   type="number"
   min="1850"
@@ -33,7 +33,7 @@ const FilterForm = ({ setQueryString }) => {
 
 </div>
 <div>
-  <label>Metai iki:</label>
+  <label>Leidimo metai (iki):</label>
   <input
   type="number"
   min="1950"
@@ -52,8 +52,8 @@ const FilterForm = ({ setQueryString }) => {
         <label>Rikiuoti pagal reitingą:</label>
         <select value={sort} onChange={(e) => setSort(e.target.value)}>
           <option value="">---</option>
-          <option value="asc">Didėjančiai</option>
-          <option value="desc">Mažėjančiai</option>
+          <option value="asc">Didėjimo tvarka</option>
+          <option value="desc">Mažėjimo tvarka</option>
         </select>
       </div>
       <button type="submit">Filtruoti</button>
